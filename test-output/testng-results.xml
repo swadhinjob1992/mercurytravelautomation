@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Start->Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly]]>
+    </line>
+    <line>
+      <![CDATA[Enter valid username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Invalid password]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Validate the  password error message]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed with ValidUsername and InValidPassword]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Enter InvalidUsername and validPassword, and verify that they are appearing correctly]]>
+    </line>
+    <line>
+      <![CDATA[Enter Invalid username]]>
+    </line>
+    <line>
+      <![CDATA[Enter valid password]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Validate the  email error message]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed with InvalidUsername and ValidPassword]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Launch Home page]]>
+    </line>
+    <line>
+      <![CDATA[The Home page was Launch Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start-> Validate Login page tittle]]>
+    </line>
+    <line>
+      <![CDATA[Browser lunch successfully]]>
+    </line>
+    <line>
+      <![CDATA[Validate the tittle of the login page]]>
+    </line>
+    <line>
+      <![CDATA[Test Complete-> The login page tittle has been successfully validate]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Check whether the page is possible to login without providing the user with any details]]>
+    </line>
+    <line>
+      <![CDATA[Do not Enter any Username]]>
+    </line>
+    <line>
+      <![CDATA[Do not Enter any Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton]]>
+    </line>
+    <line>
+      <![CDATA[Error messsage displyed as This value is required]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed with EmptyUsername and EmptyPassword]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Enter ValidUsername and ValidPassword, and verify that they are appearing correctly]]>
+    </line>
+    <line>
+      <![CDATA[Enter valid username]]>
+    </line>
+    <line>
+      <![CDATA[Enter valid password]]>
+    </line>
+    <line>
+      <![CDATA[Using valid username and valid password, Validate Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed with ValidUsername and ValidPassword]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Enter all details, and verify that they are appearing correctly and Validate Return and departure date format]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Departure date format is Valid]]>
+    </line>
+    <line>
+      <![CDATA[Return date format is Valid]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Click on flight details]]>
+    </line>
+    <line>
+      <![CDATA[Flight details validation Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Flight code validation Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Start and End time validation Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed successfully validate  city name, date, flight name, start time and end time ]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Select one more seat]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Select child seat]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified seat details]]>
+    </line>
+    <line>
+      <![CDATA[Test complete Successfully to Select one or more seats and validate]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Check Booking Now Option is Enabled or Disabled]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Confirm that the booking button is successfully enabled]]>
+    </line>
+    <line>
+      <![CDATA[Test Complete Successfully to check  if the Booking button is  enabled or disabled]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Enter the city, and verify that they are appearing correctly]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified Flight availability]]>
+    </line>
+    <line>
+      <![CDATA[Test Complete successfully Selecting city by city code]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Clicks on New Flight name, and Validate the new Flight Details]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Click on new flight]]>
+    </line>
+    <line>
+      <![CDATA[Flight details validate successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed with Adding new flight details and validation]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Validate seat price details]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[The date format is dd/mm/yyyy successfully validate]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Validate actual price details]]>
+    </line>
+    <line>
+      <![CDATA[Test complete->Validate the price details successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Start->Select Boarding place and Destination place]]>
+    </line>
+    <line>
+      <![CDATA[Select Boarding place]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding place has been selected]]>
+    </line>
+    <line>
+      <![CDATA[Boarding place is validate successfully]]>
+    </line>
+    <line>
+      <![CDATA[Select destination place]]>
+    </line>
+    <line>
+      <![CDATA[The Destination place has been selected]]>
+    </line>
+    <line>
+      <![CDATA[Destination place is validate successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test complete-> Successfully validate the Boarding place details and Destination place details]]>
+    </line>
+    <line>
+      <![CDATA[Test Start-> Booking a flight]]>
+    </line>
+    <line>
+      <![CDATA[Flight page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close home page Notification]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Click on Search flights]]>
+    </line>
+    <line>
+      <![CDATA[Flight Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The Boarding city is Delhi]]>
+    </line>
+    <line>
+      <![CDATA[The Destination city is GOA]]>
+    </line>
+    <line>
+      <![CDATA[User click on book button]]>
+    </line>
+    <line>
+      <![CDATA[User Validate the Flight name]]>
+    </line>
+    <line>
+      <![CDATA[User validate the flight timing]]>
+    </line>
+    <line>
+      <![CDATA[Select Tittle and name]]>
+    </line>
+    <line>
+      <![CDATA[The passenger selects his seat number]]>
+    </line>
+    <line>
+      <![CDATA[First Seat no is 7A]]>
+    </line>
+    <line>
+      <![CDATA[The passenger enter his Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[The passenger enter his EmailId]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceedToBooking]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on payment option]]>
+    </line>
+    <line>
+      <![CDATA[User validate the price Details]]>
+    </line>
+    <line>
+      <![CDATA[Test Complete-> The flight booking has been completed]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Test Start-> Seat pricing validation]]>
+    </line>
+    <line>
+      <![CDATA[Flight page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close home page Notification]]>
+    </line>
+    <line>
+      <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+    </line>
+    <line>
+      <![CDATA[Click on Search flights]]>
+    </line>
+    <line>
+      <![CDATA[Flight Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User click on book button]]>
+    </line>
+    <line>
+      <![CDATA[User Validate the Flight name]]>
+    </line>
+    <line>
+      <![CDATA[Select Tittle and name]]>
+    </line>
+    <line>
+      <![CDATA[The passenger selects his First seat]]>
+    </line>
+    <line>
+      <![CDATA[First Seat price is 350]]>
+    </line>
+    <line>
+      <![CDATA[First Seat no is 7A]]>
+    </line>
+    <line>
+      <![CDATA[The passenger selects his Second seat]]>
+    </line>
+    <line>
+      <![CDATA[Second Seat price is 400]]>
+    </line>
+    <line>
+      <![CDATA[Second Seat no is 11A]]>
+    </line>
+    <line>
+      <![CDATA[The passenger enter his Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[The passenger enter his EmailId]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceedToBooking]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on payment option]]>
+    </line>
+    <line>
+      <![CDATA[User validate the price Details]]>
+    </line>
+    <line>
+      <![CDATA[Test Complete-> Seat pricing validation successfully]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-25T06:20:00Z" name="Test Automation Test Suite" finished-at="2024-02-25T06:23:48Z" duration-ms="228193">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T06:20:00Z" name="Test Cases" finished-at="2024-02-25T06:23:48Z" duration-ms="228193">
+      <class name="mercuryTravels.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:00Z" name="setUp" finished-at="2024-02-25T11:50:04Z" duration-ms="4326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPassword()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:04Z" name="invalidPassword" description="Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly" finished-at="2024-02-25T11:50:11Z" duration-ms="6339" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly]]>
+            </line>
+            <line>
+              <![CDATA[Enter valid username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Invalid password]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Validate the  password error message]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed with ValidUsername and InValidPassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:11Z" name="tearDown" finished-at="2024-02-25T11:50:11Z" duration-ms="287" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:11Z" name="setUp" finished-at="2024-02-25T11:50:13Z" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidUsername()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:13Z" name="invalidUsername" description="Enter InvalidUsername and validPassword, and verify that they are appearing correctly" finished-at="2024-02-25T11:50:15Z" duration-ms="2355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Enter InvalidUsername and validPassword, and verify that they are appearing correctly]]>
+            </line>
+            <line>
+              <![CDATA[Enter Invalid username]]>
+            </line>
+            <line>
+              <![CDATA[Enter valid password]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Validate the  email error message]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed with InvalidUsername and ValidPassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:15Z" name="tearDown" finished-at="2024-02-25T11:50:15Z" duration-ms="236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:15Z" name="setUp" finished-at="2024-02-25T11:50:18Z" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTest()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:18Z" name="loginPageTest" description="Home page login" finished-at="2024-02-25T11:50:19Z" duration-ms="294" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Launch Home page]]>
+            </line>
+            <line>
+              <![CDATA[The Home page was Launch Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:19Z" name="tearDown" finished-at="2024-02-25T11:50:19Z" duration-ms="414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:19Z" name="setUp" finished-at="2024-02-25T11:50:22Z" duration-ms="3361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:22Z" name="loginPageTitleTest" description="Verify login page tittle" finished-at="2024-02-25T11:50:23Z" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start-> Validate Login page tittle]]>
+            </line>
+            <line>
+              <![CDATA[Browser lunch successfully]]>
+            </line>
+            <line>
+              <![CDATA[Validate the tittle of the login page]]>
+            </line>
+            <line>
+              <![CDATA[Test Complete-> The login page tittle has been successfully validate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:23Z" name="tearDown" finished-at="2024-02-25T11:50:23Z" duration-ms="538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:23Z" name="setUp" finished-at="2024-02-25T11:50:26Z" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithoutAnyDetails()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:26Z" name="loginWithoutAnyDetails" description="Check whether the page is possible to login without providing the user with any details" finished-at="2024-02-25T11:50:27Z" duration-ms="738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Check whether the page is possible to login without providing the user with any details]]>
+            </line>
+            <line>
+              <![CDATA[Do not Enter any Username]]>
+            </line>
+            <line>
+              <![CDATA[Do not Enter any Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton]]>
+            </line>
+            <line>
+              <![CDATA[Error messsage displyed as This value is required]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed with EmptyUsername and EmptyPassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithoutAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:27Z" name="tearDown" finished-at="2024-02-25T11:50:28Z" duration-ms="646" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:28Z" name="setUp" finished-at="2024-02-25T11:50:30Z" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validUsernameAndValidPassword()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:30Z" name="validUsernameAndValidPassword" description="Enter ValidUsername and password, and verify that they are appearing correctly" finished-at="2024-02-25T11:50:37Z" duration-ms="7596" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Enter ValidUsername and ValidPassword, and verify that they are appearing correctly]]>
+            </line>
+            <line>
+              <![CDATA[Enter valid username]]>
+            </line>
+            <line>
+              <![CDATA[Enter valid password]]>
+            </line>
+            <line>
+              <![CDATA[Using valid username and valid password, Validate Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed with ValidUsername and ValidPassword]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8]" started-at="2024-02-25T11:50:37Z" name="tearDown" finished-at="2024-02-25T11:50:38Z" duration-ms="334" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mercuryTravels.qa.testcases.LoginPageTest -->
+      <class name="mercuryTravels.qa.testcases.SearchAllDetailsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:50:38Z" name="setUp" finished-at="2024-02-25T11:50:39Z" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flightSearch()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:50:39Z" name="flightSearch" description="Enter the names, and verify that they are appearing correctly and Validate Return and departure date format" finished-at="2024-02-25T11:51:05Z" duration-ms="26059" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Enter all details, and verify that they are appearing correctly and Validate Return and departure date format]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Departure date format is Valid]]>
+            </line>
+            <line>
+              <![CDATA[Return date format is Valid]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Click on flight details]]>
+            </line>
+            <line>
+              <![CDATA[Flight details validation Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Flight code validation Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Start and End time validation Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed successfully validate  city name, date, flight name, start time and end time ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flightSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:05Z" name="tearDown" finished-at="2024-02-25T11:51:06Z" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:06Z" name="setUp" finished-at="2024-02-25T11:51:09Z" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDifferentTypeOfSeat()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:09Z" name="selectDifferentTypeOfSeat" description="Select one more seat" finished-at="2024-02-25T11:51:17Z" duration-ms="7941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Select one more seat]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Select child seat]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified seat details]]>
+            </line>
+            <line>
+              <![CDATA[Test complete Successfully to Select one or more seats and validate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectDifferentTypeOfSeat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:17Z" name="tearDown" finished-at="2024-02-25T11:51:17Z" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:17Z" name="setUp" finished-at="2024-02-25T11:51:20Z" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateBookingButton()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:20Z" name="validateBookingButton" description="Check Booking Now Option is Enabled or Disabled" finished-at="2024-02-25T11:51:34Z" duration-ms="14144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Check Booking Now Option is Enabled or Disabled]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Confirm that the booking button is successfully enabled]]>
+            </line>
+            <line>
+              <![CDATA[Test Complete Successfully to check  if the Booking button is  enabled or disabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBookingButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:34Z" name="tearDown" finished-at="2024-02-25T11:51:34Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:34Z" name="setUp" finished-at="2024-02-25T11:51:38Z" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCityName()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:38Z" name="validateCityName" description="Enter the city, and verify that they are appearing correctly and Check application wheteher is shwoing the availablity of the flight with date and timings of the departure" finished-at="2024-02-25T11:51:47Z" duration-ms="9370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Enter the city, and verify that they are appearing correctly]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified Flight availability]]>
+            </line>
+            <line>
+              <![CDATA[Test Complete successfully Selecting city by city code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCityName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:47Z" name="tearDown" finished-at="2024-02-25T11:51:47Z" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:47Z" name="setUp" finished-at="2024-02-25T11:51:51Z" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFlightName()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:51:51Z" name="validateFlightName" description="Clicks on New Flight name, and Validate the new Flight Details" finished-at="2024-02-25T11:52:04Z" duration-ms="13196" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Clicks on New Flight name, and Validate the new Flight Details]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Click on new flight]]>
+            </line>
+            <line>
+              <![CDATA[Flight details validate successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed with Adding new flight details and validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFlightName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235]" started-at="2024-02-25T11:52:04Z" name="tearDown" finished-at="2024-02-25T11:52:04Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mercuryTravels.qa.testcases.SearchAllDetailsPageTest -->
+      <class name="mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:04Z" name="setUp" finished-at="2024-02-25T11:52:08Z" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDifferentTypeOfSeat()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:08Z" name="validateDifferentTypeOfSeat" description="Validate seat price details" finished-at="2024-02-25T11:52:20Z" duration-ms="12104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Validate seat price details]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[The date format is dd/mm/yyyy successfully validate]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Validate actual price details]]>
+            </line>
+            <line>
+              <![CDATA[Test complete->Validate the price details successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDifferentTypeOfSeat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:20Z" name="tearDown" finished-at="2024-02-25T11:52:20Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:20Z" name="setUp" finished-at="2024-02-25T11:52:22Z" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFlightField()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:22Z" name="validateFlightField" description="Validate Boarding Place and Destination PLace" finished-at="2024-02-25T11:52:25Z" duration-ms="3501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start->Select Boarding place and Destination place]]>
+            </line>
+            <line>
+              <![CDATA[Select Boarding place]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding place has been selected]]>
+            </line>
+            <line>
+              <![CDATA[Boarding place is validate successfully]]>
+            </line>
+            <line>
+              <![CDATA[Select destination place]]>
+            </line>
+            <line>
+              <![CDATA[The Destination place has been selected]]>
+            </line>
+            <line>
+              <![CDATA[Destination place is validate successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test complete-> Successfully validate the Boarding place details and Destination place details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFlightField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece]" started-at="2024-02-25T11:52:25Z" name="tearDown" finished-at="2024-02-25T11:52:26Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest -->
+      <class name="mercuryTravels.qa.testcases.SeatBookingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:52:26Z" name="setUp" finished-at="2024-02-25T11:52:30Z" duration-ms="3595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnFlights()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:52:30Z" name="clickOnFlights" description="Flights Booking" finished-at="2024-02-25T11:53:04Z" duration-ms="34335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start-> Booking a flight]]>
+            </line>
+            <line>
+              <![CDATA[Flight page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Close home page Notification]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Click on Search flights]]>
+            </line>
+            <line>
+              <![CDATA[Flight Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[The Boarding city is Delhi]]>
+            </line>
+            <line>
+              <![CDATA[The Destination city is GOA]]>
+            </line>
+            <line>
+              <![CDATA[User click on book button]]>
+            </line>
+            <line>
+              <![CDATA[User Validate the Flight name]]>
+            </line>
+            <line>
+              <![CDATA[User validate the flight timing]]>
+            </line>
+            <line>
+              <![CDATA[Select Tittle and name]]>
+            </line>
+            <line>
+              <![CDATA[The passenger selects his seat number]]>
+            </line>
+            <line>
+              <![CDATA[First Seat no is 7A]]>
+            </line>
+            <line>
+              <![CDATA[The passenger enter his Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[The passenger enter his EmailId]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceedToBooking]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on payment option]]>
+            </line>
+            <line>
+              <![CDATA[User validate the price Details]]>
+            </line>
+            <line>
+              <![CDATA[Test Complete-> The flight booking has been completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:53:04Z" name="tearDown" finished-at="2024-02-25T11:53:05Z" duration-ms="635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:53:05Z" name="setUp" finished-at="2024-02-25T11:53:08Z" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSeatPricing()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:53:08Z" name="validateSeatPricing" description="Seat pricing validation" finished-at="2024-02-25T11:53:47Z" duration-ms="39149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start-> Seat pricing validation]]>
+            </line>
+            <line>
+              <![CDATA[Flight page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Close home page Notification]]>
+            </line>
+            <line>
+              <![CDATA[Select date, The date format in dd/mm/yyyy]]>
+            </line>
+            <line>
+              <![CDATA[Click on Search flights]]>
+            </line>
+            <line>
+              <![CDATA[Flight Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User click on book button]]>
+            </line>
+            <line>
+              <![CDATA[User Validate the Flight name]]>
+            </line>
+            <line>
+              <![CDATA[Select Tittle and name]]>
+            </line>
+            <line>
+              <![CDATA[The passenger selects his First seat]]>
+            </line>
+            <line>
+              <![CDATA[First Seat price is 350]]>
+            </line>
+            <line>
+              <![CDATA[First Seat no is 7A]]>
+            </line>
+            <line>
+              <![CDATA[The passenger selects his Second seat]]>
+            </line>
+            <line>
+              <![CDATA[Second Seat price is 400]]>
+            </line>
+            <line>
+              <![CDATA[Second Seat no is 11A]]>
+            </line>
+            <line>
+              <![CDATA[The passenger enter his Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[The passenger enter his EmailId]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceedToBooking]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on payment option]]>
+            </line>
+            <line>
+              <![CDATA[User validate the price Details]]>
+            </line>
+            <line>
+              <![CDATA[Test Complete-> Seat pricing validation successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSeatPricing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf]" started-at="2024-02-25T11:53:47Z" name="tearDown" finished-at="2024-02-25T11:53:48Z" duration-ms="777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mercuryTravels.qa.testcases.SeatBookingPageTest -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Test Automation Test Suite -->
+</testng-results>

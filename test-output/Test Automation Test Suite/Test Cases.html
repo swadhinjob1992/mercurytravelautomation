@@ -1,0 +1,373 @@
+<html>
+<head>
+<title>TestNG:  Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 25 11:50:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>228 seconds (228193 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SeatBookingPageTest.clickOnFlights()'><b>clickOnFlights</b><br>Test class: mercuryTravels.qa.testcases.SeatBookingPageTest<br>Test method: Flights Booking<br/>
+<a href="#Output-1911379471" onClick='toggleBox("Output-1911379471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1911379471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1911379471">
+Test Start-> Booking a flight<br/>
+Flight page is displayed successfully<br/>
+Close home page Notification<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Click on Search flights<br/>
+Flight Page is displayed<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+User click on book button<br/>
+User Validate the Flight name<br/>
+User validate the flight timing<br/>
+Select Tittle and name<br/>
+The passenger selects his seat number<br/>
+First Seat no is 7A<br/>
+The passenger enter his Mobile Number<br/>
+The passenger enter his EmailId<br/>
+Click on proceedToBooking<br/>
+User clicks on payment option<br/>
+User validate the price Details<br/>
+Test Complete-> The flight booking has been completed<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SearchAllDetailsPageTest.flightSearch()'><b>flightSearch</b><br>Test class: mercuryTravels.qa.testcases.SearchAllDetailsPageTest<br>Test method: Enter the names, and verify that they are appearing correctly and Validate Return and departure date format<br/>
+<a href="#Output-164733543" onClick='toggleBox("Output-164733543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-164733543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-164733543">
+Test Start->Enter all details, and verify that they are appearing correctly and Validate Return and departure date format<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Departure date format is Valid<br/>
+Return date format is Valid<br/>
+Click On Search Button<br/>
+Click on flight details<br/>
+Flight details validation Successfully<br/>
+Flight code validation Successfully<br/>
+Start and End time validation Successfully<br/>
+Test Completed successfully validate  city name, date, flight name, start time and end time <br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.invalidPassword()'><b>invalidPassword</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly<br/>
+<a href="#Output-389779746" onClick='toggleBox("Output-389779746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-389779746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-389779746">
+Test Start->Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly<br/>
+Enter valid username<br/>
+Enter Invalid password<br/>
+Click on loginButton<br/>
+Successfully Validate the  password error message<br/>
+Test Completed with ValidUsername and InValidPassword<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.invalidUsername()'><b>invalidUsername</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Enter InvalidUsername and validPassword, and verify that they are appearing correctly<br/>
+<a href="#Output-1522119751" onClick='toggleBox("Output-1522119751", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1522119751" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1522119751">
+Test Start->Enter InvalidUsername and validPassword, and verify that they are appearing correctly<br/>
+Enter Invalid username<br/>
+Enter valid password<br/>
+Click on loginButton<br/>
+Successfully Validate the  email error message<br/>
+Test Completed with InvalidUsername and ValidPassword<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.loginPageTest()'><b>loginPageTest</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Home page login<br/>
+<a href="#Output-1011104118" onClick='toggleBox("Output-1011104118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011104118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011104118">
+Test Start->Launch Home page<br/>
+The Home page was Launch Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Verify login page tittle<br/>
+<a href="#Output-1173504361" onClick='toggleBox("Output-1173504361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1173504361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1173504361">
+Test Start-> Validate Login page tittle<br/>
+Browser lunch successfully<br/>
+Validate the tittle of the login page<br/>
+Test Complete-> The login page tittle has been successfully validate<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.loginWithoutAnyDetails()'><b>loginWithoutAnyDetails</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Check whether the page is possible to login without providing the user with any details<br/>
+<a href="#Output-761973299" onClick='toggleBox("Output-761973299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-761973299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-761973299">
+Test Start->Check whether the page is possible to login without providing the user with any details<br/>
+Do not Enter any Username<br/>
+Do not Enter any Password<br/>
+Click on loginButton<br/>
+Error messsage displyed as This value is required<br/>
+Test Completed with EmptyUsername and EmptyPassword<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SearchAllDetailsPageTest.selectDifferentTypeOfSeat()'><b>selectDifferentTypeOfSeat</b><br>Test class: mercuryTravels.qa.testcases.SearchAllDetailsPageTest<br>Test method: Select one more seat<br/>
+<a href="#Output-2092450685" onClick='toggleBox("Output-2092450685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2092450685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2092450685">
+Test Start->Select one more seat<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Select child seat<br/>
+Click On Search Button<br/>
+Successfully verified seat details<br/>
+Test complete Successfully to Select one or more seats and validate<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.LoginPageTest.validUsernameAndValidPassword()'><b>validUsernameAndValidPassword</b><br>Test class: mercuryTravels.qa.testcases.LoginPageTest<br>Test method: Enter ValidUsername and password, and verify that they are appearing correctly<br/>
+<a href="#Output-101601906" onClick='toggleBox("Output-101601906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101601906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101601906">
+Test Start->Enter ValidUsername and ValidPassword, and verify that they are appearing correctly<br/>
+Enter valid username<br/>
+Enter valid password<br/>
+Using valid username and valid password, Validate Successfully<br/>
+Click on loginButton<br/>
+Test Completed with ValidUsername and ValidPassword<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>mercuryTravels.qa.testcases.LoginPageTest@6b8ca3c8</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SearchAllDetailsPageTest.validateBookingButton()'><b>validateBookingButton</b><br>Test class: mercuryTravels.qa.testcases.SearchAllDetailsPageTest<br>Test method: Check Booking Now Option is Enabled or Disabled<br/>
+<a href="#Output-81907268" onClick='toggleBox("Output-81907268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81907268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81907268">
+Test Start->Check Booking Now Option is Enabled or Disabled<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Click On Search Button<br/>
+Confirm that the booking button is successfully enabled<br/>
+Test Complete Successfully to check  if the Booking button is  enabled or disabled<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SearchAllDetailsPageTest.validateCityName()'><b>validateCityName</b><br>Test class: mercuryTravels.qa.testcases.SearchAllDetailsPageTest<br>Test method: Enter the city, and verify that they are appearing correctly and Check application wheteher is shwoing the availablity of the flight with date and timings of the departure<br/>
+<a href="#Output-1624203949" onClick='toggleBox("Output-1624203949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1624203949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1624203949">
+Test Start->Enter the city, and verify that they are appearing correctly<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Click On Search Button<br/>
+Successfully verified Flight availability<br/>
+Test Complete successfully Selecting city by city code<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest.validateDifferentTypeOfSeat()'><b>validateDifferentTypeOfSeat</b><br>Test class: mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest<br>Test method: Validate seat price details<br/>
+<a href="#Output-460534439" onClick='toggleBox("Output-460534439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460534439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460534439">
+Test Start->Validate seat price details<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+The date format is dd/mm/yyyy successfully validate<br/>
+Click On Search Button<br/>
+Validate actual price details<br/>
+Test complete->Validate the price details successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest.validateFlightField()'><b>validateFlightField</b><br>Test class: mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest<br>Test method: Validate Boarding Place and Destination PLace<br/>
+<a href="#Output-163015520" onClick='toggleBox("Output-163015520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-163015520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-163015520">
+Test Start->Select Boarding place and Destination place<br/>
+Select Boarding place<br/>
+The Boarding place has been selected<br/>
+Boarding place is validate successfully<br/>
+Select destination place<br/>
+The Destination place has been selected<br/>
+Destination place is validate successfully<br/>
+Test complete-> Successfully validate the Boarding place details and Destination place details<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest@10959ece</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SearchAllDetailsPageTest.validateFlightName()'><b>validateFlightName</b><br>Test class: mercuryTravels.qa.testcases.SearchAllDetailsPageTest<br>Test method: Clicks on New Flight name, and Validate the new Flight Details<br/>
+<a href="#Output-1031780408" onClick='toggleBox("Output-1031780408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031780408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031780408">
+Test Start->Clicks on New Flight name, and Validate the new Flight Details<br/>
+The Boarding city is Delhi<br/>
+The Destination city is GOA<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Click On Search Button<br/>
+Click on new flight<br/>
+Flight details validate successfully<br/>
+Test Completed with Adding new flight details and validation<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>mercuryTravels.qa.testcases.SearchAllDetailsPageTest@68c72235</td></tr>
+<tr>
+<td title='mercuryTravels.qa.testcases.SeatBookingPageTest.validateSeatPricing()'><b>validateSeatPricing</b><br>Test class: mercuryTravels.qa.testcases.SeatBookingPageTest<br>Test method: Seat pricing validation<br/>
+<a href="#Output-167018904" onClick='toggleBox("Output-167018904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-167018904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-167018904">
+Test Start-> Seat pricing validation<br/>
+Flight page is displayed successfully<br/>
+Close home page Notification<br/>
+Select date, The date format in dd/mm/yyyy<br/>
+Click on Search flights<br/>
+Flight Page is displayed<br/>
+User click on book button<br/>
+User Validate the Flight name<br/>
+Select Tittle and name<br/>
+The passenger selects his First seat<br/>
+First Seat price is 350<br/>
+First Seat no is 7A<br/>
+The passenger selects his Second seat<br/>
+Second Seat price is 400<br/>
+Second Seat no is 11A<br/>
+The passenger enter his Mobile Number<br/>
+The passenger enter his EmailId<br/>
+Click on proceedToBooking<br/>
+User clicks on payment option<br/>
+User validate the price Details<br/>
+Test Complete-> Seat pricing validation successfully<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>mercuryTravels.qa.testcases.SeatBookingPageTest@3a6bb9bf</td></tr>
+</table><p>
+</body>
+</html>

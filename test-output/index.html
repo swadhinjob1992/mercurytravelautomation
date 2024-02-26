@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>D:\New folder\Latest\mercury-travels-automation\mercury-travels-automation\mercury-Travels-ui-automation\src\resources\Testng\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation_Test_Suite" class="hide-methods passed suite-Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Automation_Test_Suite" class="show-methods passed suite-Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SeatBookingPageTest" class="method navigator-link" hash-for-method="clickOnFlights">clickOnFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SearchAllDetailsPageTest" class="method navigator-link" hash-for-method="flightSearch">flightSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="invalidPassword">invalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="invalidUsername">invalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTest">loginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithoutAnyDetails">loginWithoutAnyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SearchAllDetailsPageTest" class="method navigator-link" hash-for-method="selectDifferentTypeOfSeat">selectDifferentTypeOfSeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="validUsernameAndValidPassword">validUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SearchAllDetailsPageTest" class="method navigator-link" hash-for-method="validateBookingButton">validateBookingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SearchAllDetailsPageTest" class="method navigator-link" hash-for-method="validateCityName">validateCityName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest" class="method navigator-link" hash-for-method="validateDifferentTypeOfSeat">validateDifferentTypeOfSeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest" class="method navigator-link" hash-for-method="validateFlightField">validateFlightField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SearchAllDetailsPageTest" class="method navigator-link" hash-for-method="validateFlightName">validateFlightName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Automation_Test_Suite" title="mercuryTravels.qa.testcases.SeatBookingPageTest" class="method navigator-link" hash-for-method="validateSeatPricing">validateSeatPricing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation_Test_Suite" class="panel Test_Automation_Test_Suite">
+          <div class="suite-Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mercuryTravels.qa.testcases.SearchAllDetailsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightSearch">
+                  </a> <!-- flightSearch -->
+                  <span class="method-name">flightSearch</span>
+                  <em>
+(Enter the names, and verify that they are appearing correctly and Validate Return and departure date format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDifferentTypeOfSeat">
+                  </a> <!-- selectDifferentTypeOfSeat -->
+                  <span class="method-name">selectDifferentTypeOfSeat</span>
+                  <em>
+(Select one more seat)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBookingButton">
+                  </a> <!-- validateBookingButton -->
+                  <span class="method-name">validateBookingButton</span>
+                  <em>
+(Check Booking Now Option is Enabled or Disabled)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCityName">
+                  </a> <!-- validateCityName -->
+                  <span class="method-name">validateCityName</span>
+                  <em>
+(Enter the city, and verify that they are appearing correctly and Check application wheteher is shwoing the availablity of the flight with date and timings of the departure)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFlightName">
+                  </a> <!-- validateFlightName -->
+                  <span class="method-name">validateFlightName</span>
+                  <em>
+(Clicks on New Flight name, and Validate the new Flight Details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mercuryTravels.qa.testcases.SeatBookingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnFlights">
+                  </a> <!-- clickOnFlights -->
+                  <span class="method-name">clickOnFlights</span>
+                  <em>
+(Flights Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSeatPricing">
+                  </a> <!-- validateSeatPricing -->
+                  <span class="method-name">validateSeatPricing</span>
+                  <em>
+(Seat pricing validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mercuryTravels.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPassword">
+                  </a> <!-- invalidPassword -->
+                  <span class="method-name">invalidPassword</span>
+                  <em>
+(Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsername">
+                  </a> <!-- invalidUsername -->
+                  <span class="method-name">invalidUsername</span>
+                  <em>
+(Enter InvalidUsername and validPassword, and verify that they are appearing correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest">
+                  </a> <!-- loginPageTest -->
+                  <span class="method-name">loginPageTest</span>
+                  <em>
+(Home page login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <em>
+(Verify login page tittle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutAnyDetails">
+                  </a> <!-- loginWithoutAnyDetails -->
+                  <span class="method-name">loginWithoutAnyDetails</span>
+                  <em>
+(Check whether the page is possible to login without providing the user with any details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameAndValidPassword">
+                  </a> <!-- validUsernameAndValidPassword -->
+                  <span class="method-name">validUsernameAndValidPassword</span>
+                  <em>
+(Enter ValidUsername and password, and verify that they are appearing correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDifferentTypeOfSeat">
+                  </a> <!-- validateDifferentTypeOfSeat -->
+                  <span class="method-name">validateDifferentTypeOfSeat</span>
+                  <em>
+(Validate seat price details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFlightField">
+                  </a> <!-- validateFlightField -->
+                  <span class="method-name">validateFlightField</span>
+                  <em>
+(Validate Boarding Place and Destination PLace)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\New folder\Latest\mercury-travels-automation\mercury-travels-automation\mercury-Travels-ui-automation\src\resources\Testng\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;MercuryTravels.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mercuryTravels.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;mercuryTravels.qa.testcases.SearchAllDetailsPageTest&quot;/&gt;
+      &lt;class name=&quot;mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest&quot;/&gt;
+      &lt;class name=&quot;mercuryTravels.qa.testcases.SeatBookingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Cases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation_Test_Suite');
+function tableData_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateSeatPricing')
+data.setCell(0, 2, 'mercuryTravels.qa.testcases.SeatBookingPageTest')
+data.setCell(0, 3, 39149);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnFlights')
+data.setCell(1, 2, 'mercuryTravels.qa.testcases.SeatBookingPageTest')
+data.setCell(1, 3, 34335);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'flightSearch')
+data.setCell(2, 2, 'mercuryTravels.qa.testcases.SearchAllDetailsPageTest')
+data.setCell(2, 3, 26059);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateBookingButton')
+data.setCell(3, 2, 'mercuryTravels.qa.testcases.SearchAllDetailsPageTest')
+data.setCell(3, 3, 14144);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateFlightName')
+data.setCell(4, 2, 'mercuryTravels.qa.testcases.SearchAllDetailsPageTest')
+data.setCell(4, 3, 13196);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateDifferentTypeOfSeat')
+data.setCell(5, 2, 'mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest')
+data.setCell(5, 3, 12104);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateCityName')
+data.setCell(6, 2, 'mercuryTravels.qa.testcases.SearchAllDetailsPageTest')
+data.setCell(6, 3, 9370);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectDifferentTypeOfSeat')
+data.setCell(7, 2, 'mercuryTravels.qa.testcases.SearchAllDetailsPageTest')
+data.setCell(7, 3, 7941);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validUsernameAndValidPassword')
+data.setCell(8, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(8, 3, 7596);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalidPassword')
+data.setCell(9, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(9, 3, 6339);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateFlightField')
+data.setCell(10, 2, 'mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest')
+data.setCell(10, 3, 3501);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invalidUsername')
+data.setCell(11, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(11, 3, 2355);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginWithoutAnyDetails')
+data.setCell(12, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(12, 3, 738);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginPageTest')
+data.setCell(13, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(13, 3, 294);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginPageTitleTest')
+data.setCell(14, 2, 'mercuryTravels.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 20);
+window.suiteTableData['Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Test_Automation_Test_Suite">
+              </div> <!-- times-div-Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCityName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Enter the city, and verify that they are appearing correctly</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Successfully verified Flight availability</span>
+                <span class="reporter-method-output">Test Complete successfully Selecting city by city code</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickOnFlights</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start-> Booking a flight</span>
+                <span class="reporter-method-output">Flight page is displayed successfully</span>
+                <span class="reporter-method-output">Close home page Notification</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Click on Search flights</span>
+                <span class="reporter-method-output">Flight Page is displayed</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">User click on book button</span>
+                <span class="reporter-method-output">User Validate the Flight name</span>
+                <span class="reporter-method-output">User validate the flight timing</span>
+                <span class="reporter-method-output">Select Tittle and name</span>
+                <span class="reporter-method-output">The passenger selects his seat number</span>
+                <span class="reporter-method-output">First Seat no is 7A</span>
+                <span class="reporter-method-output">The passenger enter his Mobile Number</span>
+                <span class="reporter-method-output">The passenger enter his EmailId</span>
+                <span class="reporter-method-output">Click on proceedToBooking</span>
+                <span class="reporter-method-output">User clicks on payment option</span>
+                <span class="reporter-method-output">User validate the price Details</span>
+                <span class="reporter-method-output">Test Complete-> The flight booking has been completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectDifferentTypeOfSeat</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Select one more seat</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Select child seat</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Successfully verified seat details</span>
+                <span class="reporter-method-output">Test complete Successfully to Select one or more seats and validate</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateBookingButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Check Booking Now Option is Enabled or Disabled</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Confirm that the booking button is successfully enabled</span>
+                <span class="reporter-method-output">Test Complete Successfully to check  if the Booking button is  enabled or disabled</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateFlightName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Clicks on New Flight name, and Validate the new Flight Details</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Click on new flight</span>
+                <span class="reporter-method-output">Flight details validate successfully</span>
+                <span class="reporter-method-output">Test Completed with Adding new flight details and validation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateSeatPricing</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start-> Seat pricing validation</span>
+                <span class="reporter-method-output">Flight page is displayed successfully</span>
+                <span class="reporter-method-output">Close home page Notification</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Click on Search flights</span>
+                <span class="reporter-method-output">Flight Page is displayed</span>
+                <span class="reporter-method-output">User click on book button</span>
+                <span class="reporter-method-output">User Validate the Flight name</span>
+                <span class="reporter-method-output">Select Tittle and name</span>
+                <span class="reporter-method-output">The passenger selects his First seat</span>
+                <span class="reporter-method-output">First Seat price is 350</span>
+                <span class="reporter-method-output">First Seat no is 7A</span>
+                <span class="reporter-method-output">The passenger selects his Second seat</span>
+                <span class="reporter-method-output">Second Seat price is 400</span>
+                <span class="reporter-method-output">Second Seat no is 11A</span>
+                <span class="reporter-method-output">The passenger enter his Mobile Number</span>
+                <span class="reporter-method-output">The passenger enter his EmailId</span>
+                <span class="reporter-method-output">Click on proceedToBooking</span>
+                <span class="reporter-method-output">User clicks on payment option</span>
+                <span class="reporter-method-output">User validate the price Details</span>
+                <span class="reporter-method-output">Test Complete-> Seat pricing validation successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Launch Home page</span>
+                <span class="reporter-method-output">The Home page was Launch Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateDifferentTypeOfSeat</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Validate seat price details</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">The date format is dd/mm/yyyy successfully validate</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Validate actual price details</span>
+                <span class="reporter-method-output">Test complete->Validate the price details successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flightSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Enter all details, and verify that they are appearing correctly and Validate Return and departure date format</span>
+                <span class="reporter-method-output">The Boarding city is Delhi</span>
+                <span class="reporter-method-output">The Destination city is GOA</span>
+                <span class="reporter-method-output">Select date, The date format in dd/mm/yyyy</span>
+                <span class="reporter-method-output">Departure date format is Valid</span>
+                <span class="reporter-method-output">Return date format is Valid</span>
+                <span class="reporter-method-output">Click On Search Button</span>
+                <span class="reporter-method-output">Click on flight details</span>
+                <span class="reporter-method-output">Flight details validation Successfully</span>
+                <span class="reporter-method-output">Flight code validation Successfully</span>
+                <span class="reporter-method-output">Start and End time validation Successfully</span>
+                <span class="reporter-method-output">Test Completed successfully validate  city name, date, flight name, start time and end time </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateFlightField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Select Boarding place and Destination place</span>
+                <span class="reporter-method-output">Select Boarding place</span>
+                <span class="reporter-method-output">The Boarding place has been selected</span>
+                <span class="reporter-method-output">Boarding place is validate successfully</span>
+                <span class="reporter-method-output">Select destination place</span>
+                <span class="reporter-method-output">The Destination place has been selected</span>
+                <span class="reporter-method-output">Destination place is validate successfully</span>
+                <span class="reporter-method-output">Test complete-> Successfully validate the Boarding place details and Destination place details</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Enter ValidUsername and InvalidPassword, and verify that they are appearing correctly</span>
+                <span class="reporter-method-output">Enter valid username</span>
+                <span class="reporter-method-output">Enter Invalid password</span>
+                <span class="reporter-method-output">Click on loginButton</span>
+                <span class="reporter-method-output">Successfully Validate the  password error message</span>
+                <span class="reporter-method-output">Test Completed with ValidUsername and InValidPassword</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithoutAnyDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Check whether the page is possible to login without providing the user with any details</span>
+                <span class="reporter-method-output">Do not Enter any Username</span>
+                <span class="reporter-method-output">Do not Enter any Password</span>
+                <span class="reporter-method-output">Click on loginButton</span>
+                <span class="reporter-method-output">Error messsage displyed as This value is required</span>
+                <span class="reporter-method-output">Test Completed with EmptyUsername and EmptyPassword</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPageTitleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start-> Validate Login page tittle</span>
+                <span class="reporter-method-output">Browser lunch successfully</span>
+                <span class="reporter-method-output">Validate the tittle of the login page</span>
+                <span class="reporter-method-output">Test Complete-> The login page tittle has been successfully validate</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validUsernameAndValidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Enter ValidUsername and ValidPassword, and verify that they are appearing correctly</span>
+                <span class="reporter-method-output">Enter valid username</span>
+                <span class="reporter-method-output">Enter valid password</span>
+                <span class="reporter-method-output">Using valid username and valid password, Validate Successfully</span>
+                <span class="reporter-method-output">Click on loginButton</span>
+                <span class="reporter-method-output">Test Completed with ValidUsername and ValidPassword</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalidUsername</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Start->Enter InvalidUsername and validPassword, and verify that they are appearing correctly</span>
+                <span class="reporter-method-output">Enter Invalid username</span>
+                <span class="reporter-method-output">Enter valid password</span>
+                <span class="reporter-method-output">Click on loginButton</span>
+                <span class="reporter-method-output">Successfully Validate the  email error message</span>
+                <span class="reporter-method-output">Test Completed with InvalidUsername and ValidPassword</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mercuryTravels.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPassword</span>
+                <span class="method-start">4327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsername</span>
+                <span class="method-start">12831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest</span>
+                <span class="method-start">18369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">22442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithoutAnyDetails</span>
+                <span class="method-start">26313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameAndValidPassword</span>
+                <span class="method-start">29682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mercuryTravels.qa.testcases.SearchAllDetailsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">flightSearch</span>
+                <span class="method-start">39299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectDifferentTypeOfSeat</span>
+                <span class="method-start">68530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateBookingButton</span>
+                <span class="method-start">79958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCityName</span>
+                <span class="method-start">97679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFlightName</span>
+                <span class="method-start">110578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123776 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mercuryTravels.qa.testcases.FlightsAllFieldValidationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDifferentTypeOfSeat</span>
+                <span class="method-start">127705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFlightField</span>
+                <span class="method-start">141935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145439 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mercuryTravels.qa.testcases.SeatBookingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">146036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnFlights</span>
+                <span class="method-start">149631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSeatPricing</span>
+                <span class="method-start">188245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">227397 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
